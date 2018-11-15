@@ -1,0 +1,476 @@
+@font-face {
+    font-family: 'Dancing Script' "cursive";
+    font-family: 'Amatic SC', "cursive";
+    font-family: 'Bad Script', "cursive";
+    font-family: 'Parisienne', "cursive";
+    font-family: 'Coming Soon', "cursive";
+    font-family: 'Petit Formal Script', "cursive";
+    font-family: 'League Script', "cursive";
+    font-family: "Antro Vectra", "cursive";
+
+    /*src: url('DancingScript.eot');
+    src: local('Dancing Script'), local('DancingScript'),
+        url('DancingScript.eot?#iefix') format('embedded-opentype'),
+        url('DancingScript.woff') format('woff'),
+        url('DancingScript.ttf') format('truetype');
+
+        src: url('AmaticSC.eot');
+        src: local('Amatic SC'), local('AmaticSC'),
+            url('AmaticSC.eot?#iefix') format('embedded-opentype'),
+            url('AmaticSC.woff') format('woff'),
+            url('AmaticSC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;*/
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* globalne klasy */
+
+/* ------------------------------------------------------------------- */
+
+.main-header.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+body {
+    flex: auto;
+    flex-wrap: wrap;
+    font-family: "Antro Vectra";*/
+    font-family: cursive;
+    /*background-color: pink;*/
+        max-width: 1300px;
+
+}
+
+.main-header {
+    height: 80px;
+    position: relative;
+    margin-left: 60px;
+    height: 200px;
+    margin-right: 60px;
+    /*background-color: orange;*/
+    width: 1300px;
+}
+
+.main-logo {
+    color: black;
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    margin-left: 0px;
+    /*background-color: yellow;*/
+}
+.main-logo.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100px;
+    /*background-color: red;*/
+
+}
+.container {
+    /*background-color: green;*/
+
+margin: 0 auto;
+box-sizing: border-box;
+max-width: 1300px;
+padding-right: 300px;
+width: 1300px;
+
+}
+
+.main-header-nav {
+    position: absolute;
+    display: inline-block;
+
+}
+
+h1 span {
+    color: black;
+    font-weight: bolder;
+}
+
+.main-nav {
+    float: right;
+
+    margin-top: 50px;
+}
+
+.main-nav ul {
+    margin-left: 200px;
+    display: inline;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-right: 60px;
+}
+
+.main-nav a {
+    float: left;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+    text-decoration: none;
+    line-height: 10px;
+    padding-right: 30px;
+    word-spacing: 3px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+#galeria {
+margin-left: 60px;
+height: 3800px;
+margin-top: 10px;
+/*background-color: blue;*/
+width: 1300px;
+
+
+}
+
+    #picture1{
+        float: left;
+        width: 1100px;
+        height: 1000px;
+        padding-top: 80px;
+        padding-left: 200px;
+        margin-left: 10px;
+
+    }
+
+    #picture2{
+                float: left;
+
+      margin-top:-100px;
+                margin-left: 50px;
+
+
+    }
+
+    #picture3{
+    float: left;
+     padding-left: 100px;
+     margin-top: -100px;
+    }
+    #picture4{
+        float: left;
+    margin-top:20px;
+        margin-left: 30px;
+        padding-left: 10px;
+    }
+    #picture5{
+    float: left;
+      margin-top:20px;
+        padding-left: 50px;
+    }
+    #picture6{
+    float: left;
+      margin-top:30px;
+        margin-left: 30px;
+    }
+    #picture7{
+    float: left;
+      margin-top:-500px;
+        padding-left: 680px;
+    }
+/*.col-1-2{
+    position: absolute;
+    padding-top: 30px;
+    height: 600px;
+    background-color: yellow;
+    max-width: 1200px;
+}*/
+
+.row1 {
+/*background-color: green;*/
+width: 1400px;
+height: 850px;
+margin-left: 10px;
+max-width: 1300px;
+}
+.row2 {
+/*background-color: pink;*/
+width: 1400px;
+height: 560px;
+margin-left: 10px;
+max-width: 1300px;
+}
+.row3 {
+/*background-color: yellow;*/
+width: 1400px;
+height: 560px;
+margin-left: 10px;
+max-width: 1300px;
+margin-top: 30px;
+}
+.row4 {
+/*background-color: orange;*/
+width: 1400px;
+height: 550px;
+margin-left: 10px;
+max-width: 1300px;
+margin-top: 30px;
+}
+
+.row5 {
+/*background-color: red;*/
+width: 1400px;
+height: 550px;
+margin-left: 10px;
+max-width: 1300px;
+margin-top: 30px;
+}
+.row6 {
+/*background-color: black;*/
+width: 1400px;
+height: 550px;
+margin-left: 10px;
+max-width: 1300px;
+margin-top: 30px;
+}
+
+
+#about {
+    background-color: #f3f3f2;;
+    margin-left: 60px;
+    height: 400px;
+    margin-top: 10px;
+    width: 1300px;
+    padding-top: 10px;
+    font-family:  "Antro Vectra";
+    font-size: 22px;
+
+}
+
+.description {
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+    background-color: yellow;
+    padding-left: 50px;
+    margin-top: 5px;
+    padding-right: 40px;
+
+}
+
+ .col-1-2.photoAnia{
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.photoAnia {
+    background-color: pink;
+}
+
+#main-form {
+/*background-color: red;*/
+margin-left: 60px;
+height: 700px;
+margin-top: 10px;
+
+width: 1300px;
+}
+
+.form {
+/*background-color: pink;*/
+margin-left: 50px;
+height: 500px;
+padding-top: 50px;
+margin-right: 50px;
+}
+.contact {
+    font-weight: bolder;
+font-size: 30px;
+margin-left: 100px;
+margin-bottom: 20px;
+text-transform: uppercase;
+width: 100px;
+height: 40px;
+}
+
+
+
+.contact-form {
+    width: 600px;
+        height: 400px;
+        margin-left: 100px;
+}
+
+.col-1-2-form {
+    width: 1050px;
+height: 650px;
+margin-top: -20px;
+position: absolute;
+
+}
+ .pink {
+     margin-top: 10px;
+height: 180px;
+width: 440px;
+margin-left: 200px;
+/*background-color: yellow;*/
+padding-top: 20px;
+}
+
+#name {
+    color: #f4f4f4;
+    width: 600px;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+#email {
+    font: #ffff;
+    width: 600px;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+#text-contact {
+    font: light#afafaf;
+    width: 600px;
+    height: 250px;
+    padding-left: 5px;
+    margin-top: 20px;
+    padding-bottom: 200px;
+}
+
+
+#form-ok {
+    width: 24px;
+    height: 21px;
+    border: 1px solid black;
+    background-image: url(../images/form_ok.jpg);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+#agreement {
+    font-size: 13px;
+    color: black;
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+button#button-send {
+    width: 250px;
+    height: 50px;
+    margin-left: 170px;
+}
+
+ #button-send {
+     background-color: black;
+     margin-top: 20px;
+     font-size: 15px;
+     color: white;
+     padding-top: 4px;
+     padding-left: 10px;
+     border-radius: 6px;
+}
+#button-send a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+.footer {
+    margin-left:60px;
+    height: 50px;
+    margin-top: 10px;
+    /*background-color: grey;*/
+    margin-right: 50px;
+    width: 1300px;
+    font-weight: bolder;
+}
+
+.col-1-3-footer{
+
+    height: 25px;
+    position: absolute;
+    width: 1040px;
+    margin-left: 100px;
+}
+
+#rights {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #afafaf;
+    margin-top: 5px;
+
+
+}
+
+.social-media ul li {
+    width: 35px;
+    float: right;
+    margin-left: 5px;
+}
+
+.social-media li  {
+    display: inline-block;
+    position: relative;
+
+}
+
+.social-media  {
+    margin-right: 200px;
+    margin-top: 0px;
+}
+
+#footer-logo {
+    font-size: 25px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 20px;
+    color: #afafaf;
+}
+
+#footer-logo span {
+    font-weight: bold;
+}
