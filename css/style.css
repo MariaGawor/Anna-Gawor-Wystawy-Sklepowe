@@ -8,6 +8,7 @@
     font-family: 'League Script', "cursive";
     font-family: "Antro Vectra", "cursive";
     font-family: "Benton-modern", "cursive";
+    font-family: 'Playfair Display', serif;
 
     /*src: url('DancingScript.eot');
     src: local('Dancing Script'), local('DancingScript'),
@@ -88,6 +89,7 @@ body {
     font-weight: bold;
     float: left;
     margin-left: 0px;
+
     /*background-color: yellow;*/
 }
 .main-logo.container {
@@ -211,13 +213,12 @@ width: 1300px;
       margin-top:-500px;
         padding-left: 680px;
     }
-/*.col-1-2{
-    position: absolute;
-    padding-top: 30px;
-    height: 600px;
-    background-color: yellow;
-    max-width: 1200px;
-}*/
+    #photoAnia{
+    float: left;
+    padding-left: 300px;
+
+    }
+
 
 .row1 {
 /*background-color: green;*/
@@ -269,66 +270,81 @@ margin-top: 30px;
 
 
 #about {
-    background-color: #f3f3f2;;
+    /*background-color: pink;*/
     margin-left: 60px;
-    height: 400px;
+    height: 1200px;
     margin-top: 10px;
     width: 1300px;
     padding-top: 10px;
-    font-family:  "Benton Moder";
-    font-size: 22px;
+font-family: "Dancing Script";
+    font-size: 27px;
+    padding-left: 50px;
 
 }
+.photosAbout{
+    /*background-color: yellow;*/
+    height: 600px;
+    width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 .description {
+    margin-top: 40px;
+    height: 500px;
+    /*background-color: blue;*/
+    width: 1100px;
+    margin-right: 90px;
+margin-left: 60px;
+
+}
+.description-title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.description-text {
     float: left;
-    width: 70%;
     padding-top: 30px;
-    background-color: yellow;
-    padding-left: 50px;
-    margin-top: 5px;
-    padding-right: 40px;
-
+    line-height: 40px;
 }
 
- .col-1-2.photoAnia{
-    padding-top: 30px;
-    margin-left: 40px;
-    width: 300px;
-    height: 300px;
-
-}
-
-.photoAnia {
-    background-color: pink;
-}
 
 #main-form {
 /*background-color: red;*/
 margin-left: 60px;
 height: 750px;
 margin-top: 10px;
-
+margin-bottom: 800px;
 width: 1300px;
 }
 
 .form {
 
 margin-left: 50px;
-height: 700px;
+height: 1700px;
 padding-top: 50px;
 margin-right: 50px;
 width: 1200px;
+
+}
+.container.form {
+    width: 1200px;
+    background-color: purple;
 }
 .contact {
     font-weight: bolder;
 font-size: 30px;
-margin-left: 100px;
+margin-left: 200px;
 margin-bottom: 20px;
 text-transform: uppercase;
 width: 100px;
 height: 40px;
+margin-bottom: 20px;
+
 }
+
 
 
 
@@ -345,14 +361,7 @@ margin-top: -20px;
 position: absolute;
 
 }
- .pink {
-     margin-top: 10px;
-height: 180px;
-width: 440px;
-margin-left: 200px;
-/*background-color: yellow;*/
-padding-top: 20px;
-}
+
 
 #name {
     color: #f4f4f4;
@@ -381,44 +390,6 @@ padding-top: 20px;
     padding-bottom: 200px;
 }
 
-
-#form-ok {
-    width: 24px;
-    height: 21px;
-    border: 1px solid black;
-    background-image: url(../images/form_ok.jpg);
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-left: 30px;
-}
-
-#agreement {
-    font-size: 13px;
-    color: black;
-    margin-top: -30px;
-    margin-left: 70px;
-}
-
-button#button-send {
-    width: 250px;
-    height: 50px;
-    margin-left: 170px;
-}
-
- #button-send {
-     background-color: black;
-     margin-top: 20px;
-     font-size: 15px;
-     color: white;
-     padding-top: 4px;
-     padding-left: 10px;
-     border-radius: 6px;
-}
-#button-send a {
-    text-decoration: none;
-    color: #ffff;
-    font-weight: bolder;
-}
 
 .footer {
     margin-left:60px;
@@ -451,20 +422,47 @@ button#button-send {
 
 /*.social-media ul li {
     width: 55px;
-    float: right;
+    float: right;*/
 
-}*/
-
-.social-media li  {
+}
+/*
+/*.social-media   {
     display: inline-block;
     position: relative;
 
+}*/
+
+.find{
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+
+}
+.social-text{
+font-size: 30px;
+ font-family: "Dancing Script";
+ margin-left: 440px;
+ margin-top: 50px;
+}
+.social-media  {
+    margin-left: 150px;
+    margin-top: 50px;
+    /*background-color: yellow;*/
+    height: 50px;
+    width:300px;
+    font-size: 40px;
+    margin-left: 460px;
+    letter-spacing: 20px;
+    padding-left: 30px;
 }
 
-.social-media  {
-    margin-left: 90px;
-    margin-top: 0px;
+a:visited {
+    color: black;
+}
 
+a {
+    text-decoration: none;
 }
 
 #footer-logo {
@@ -488,21 +486,57 @@ button#button-send {
 }
 
 .info{
-    font-size: 20px;
-    color: black;
-    font-family: Coming Soon;
-    width: 1200px;
-    height: 450px;
-    /*background-color: pink;*/
-    padding-top: 40px;
-    line-height: 40px;
-    font-weight: bolder;
-    padding-left: 60px;
+font-size: 30px;
+color: black;
+font-family: "Dancing Script";
+width: 1200px;
+height: 350px;
+background-color: pink;
+padding-top: 40px;
+line-height: 40px;
+padding-left: 120px;
+padding-right: 120px;
+margin-top: 440px;
+
 }
 
 .telephone {
     font-size: 25px;
     color: black;
-    font-family: Coming Soon;
+    font-family: "Playfair Display";
     padding-left: 300px;
+}
+
+.fa-instagram {
+    color:pink;
+    font-weight: bolder;
+}
+.fa-etsy{
+    color:pink;
+}
+
+.fa-linkedin-in {
+    color:pink;
+}
+
+a:visited.fa-instagram{
+    color:pink;
+}
+
+.formularz {
+    background-color: blue;
+    height: 450px;
+    width: 900px;
+    margin-top:-700px;
+}
+#agreement {
+    background-color: yellow;
+}
+.pink {
+    margin-top: 450px;
+height: 100px;
+width: 440px;
+margin-left: 200px;
+background-color: yellow;
+padding-top: 20px;
 }
