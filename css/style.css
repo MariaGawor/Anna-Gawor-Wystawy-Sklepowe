@@ -400,7 +400,7 @@ margin-top: -40px;
 #about {
     /*background-color: pink;*/
     margin-left: 60px;
-    height: 1250px;
+    height: 1450px;
     margin-top: 20px;
     width: 1200px;
     padding-top: 10px;
@@ -411,7 +411,7 @@ font-family: "Didot";
 }
 .photosAbout{
     /*background-color: yellow;*/
-    height: 600px;
+    height: 580px;
     width: 1200px;
     margin-left: 60px;
     margin-right: 20px;
@@ -419,8 +419,8 @@ font-family: "Didot";
 
 
 .description {
-    margin-top: 20px;
-    height: 500px;
+    margin-top: -30px;
+    height: 850px;
 
     width: 1000px;
 
@@ -439,12 +439,12 @@ font-family: "Didot";
     float: left;
     padding-top: 30px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 16px;
     width: 900px;
 /*background-color: pink;*/
 margin-right: 140px;
 padding-left: 30px;
-    height: 600px;
+    height: 900px;
 }
 
 
